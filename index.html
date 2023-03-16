@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+	<html lang="ru" >
+		<head>
+			<meta charset="UTF-8">
+			<title>
+				Столовая МОУ "СОШ № 13 им. А. А. Завитухина"
+			</title>
+			<style type="text/css">
+				a {
+					color:red;
+					text-decoration: none;
+				}
+				html {
+					background: #FFFFFF;
+					min-height: 100%;
+					font-family: Helvetica;
+					display: flex;
+					flex-direction: column;
+				}
+				body {
+					margin: 0;
+					padding: 0 15px;
+					display: flex;
+					flex-direction: column;
+					flex: auto;
+				}
+				h1 {
+					margin-top: 0;
+				}
+				h1, p {
+					color: #660000;
+				}
+				img {
+					border: 0;
+				}
+				.header {
+					width: 100%;
+					min-width: 460px;
+					max-width: 960px;
+					margin: 0 auto 30px;
+					padding: 30px 0 10px;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					box-sizing: border-box;
+				}
+				.logo {
+					font-size: 1.5rem;
+					color: #660000;
+					text-decoration: none;
+					margin: 5px 0 0 5px;
+					justify-content: center;
+					align-items: center;
+					display: flex;
+					flex: none;
+					align-items: center;
+					background: #839FFF;
+					width: 130px;
+					height: 50px;
+				}
+				.nav {
+					margin: -5px 0 0 -5px;
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.nav-item {
+					background: #BDC7FF;
+					width: 130px;
+					height: 50px;
+					font-size: 1.5rem;
+					color: #660000;
+					text-decoration: none;
+					display: flex;
+					margin: 5px 0 0 5px;
+					justify-content: center;
+					align-items: center;
+				}
+				.sqr {
+					height: 300px;
+					width: 300px;
+					background: #FFFFFF;
+				}
+
+				.main {
+					width: 100%;
+					min-width: 460px;
+					max-width: 960px;
+					margin: auto;
+					flex: auto;
+					box-sizing: border-box;
+				}
+				.box {
+					font-size: 1.25rem;
+					line-height: 1.5;
+					margin: 0 0 40px -50px;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+				}
+				.box-base {
+					margin-left: 50px;
+					flex: 1 0 430px;
+				}
+				.box-side {
+					margin-left: 50px;
+					font: none;
+				}
+				.box-img {
+					max-width: 100%;
+					height: auto;
+				}
+				.content {
+					margin-bottom: 30px;
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.banners {
+					flex: 1 1 200px;
+				}
+				.banner {
+					background: #1F3641;
+					width: 100%;
+					min-width: 100px;
+					min-height: 200px;
+					font-size: 3rem;
+					color: #660000;
+					margin: 0 0 30px 0;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.posts {
+					margin: 0 0 30px 30px;
+					flex: 1 1 200px;
+				}
+				.comments {
+					margin: 0 0 30px 30px;
+					flex: 1 1 200px;
+				}
+				.comment {
+					display: flex;
+				}
+				.comment-side {
+					padding-right: 20px;
+					flex: none;
+				}
+				.comment-base {
+					flex: auto;
+				}
+				.comment-avatar {
+					background: #f5003d;
+					width: 50px;
+					height: 50px;
+				}
+				.footer {
+					background: #BDC7FF;
+					width: 100%;
+					max-width: 960px;
+					min-width: 460px;
+					color: #808080;
+					margin: auto;
+					padding: 15px;
+					box-sizing: border-box;
+				}
+
+				@media screen and  (max-width: 800px) {
+					.banners {
+						margin-left: -30px;
+						display: flex;
+						flex-basis: 100%;
+					}
+					.banner {
+						margin-left: 30px;
+					}
+					.posts {
+						margin-left: 0;
+					}
+				}
+				@media screen and  (max-width: 600px) {
+					.content {
+						display: block;
+					}
+					.banners{
+						margin: 0;
+						display: block;
+					}
+					.banner{
+						margin-left: 0;
+					}
+					.posts{
+						margin: 0;
+					}
+				}
+			</style>
+		</head>
+		<body>
+			<header class="header">
+				<a class="logo">
+					13 школа
+				</a>
+				<nav class="nav">
+					<a href="#posts" class="nav-item">
+						Меню
+					</a>
+					<a href="https://s10012.edu35.ru/organizatsiya-pitaniya-v-obshcheobrazovatelnoj-organizatsii" class="nav-item">
+						Питание
+					</a>
+					<a href="#footer" class="nav-item">
+						Адрес
+					</a>
+				</nav>
+
+			</header>
+			<main class="main">
+				<div class="box">
+				<div class="box-base">
+				<h1>
+					Столовая МОУ "СОШ № 13 им. А. А. Завитухина"
+				</h1>
+				<p>
+					Горячее питание детей во время пребывания в школе является одним из важных условий поддержания их здоровья и способности к эффективному обучению. Хорошая организация школьного питания ведёт к улучшению показателей уровня здоровья населения, и в первую очередь детей, учитывая, что в школе они проводят большую часть своего времени. Поэтому питание является одним из важных факторов,  определяющих здоровье подрастающего поколения. Полноценное и сбалансированное питание способствует профилактике заболеваний, повышению работоспособности и успеваемости, физическому и умственному развитию детей и подростков, создаёт условия к их адаптации к современной жизни.
+				</p>
+				</div>
+				<div class="box-side">
+				<div class="sqr">
+
+				</div>
+				</div>
+				</div>
+				<div class="content">
+				<div class="banners">
+				<img class="banner" src="https://s1.1zoom.ru/big0/504/The_second_dishes_Vienna_sausage_Potato_Wood_520555_1280x853.jpg" alt="Горячие блюда">
+				<img class="banner" src="https://avatars.dzeninfra.ru/get-zen_doc/916951/pub_5dcbe08c8ddf2d1f5dfbf2fc_5dcbe092c7891f51f5fb7d88/scale_1200" alt="Супы">
+				<img class="banner" src="https://podacha-blud.com/uploads/posts/2022-12/1670193547_7-podacha-blud-com-p-kruzhka-chaya-krasivoe-foto-7.jpg" alt="Напитки">
+				</div>
+				<div class="posts"  id="posts">
+				<div class="post">
+				<h1>Горячие блюда</h1>
+				<p>Каша молочная<br>Каша гречневая<br>Котлета куриная<br>Греча отварная<br>Каша рисовая<br><br><br><br><br></p>
+				</div>
+				<div class="post">
+				<h1>Супы</h1>
+				<p>Суп картофельный с горохом и цыплёнком<br><br><br><br><br><br><br><br></p>
+				</div>
+				<div class="post">
+				<h1>Напитки</h1>
+				<p>Компот из ягод<br>Компот из сухофруктов<br>Чай с сахаром<br>Чай с сахаром и лимоном<br>Кисло-молочный продукт</p>
+				</div>
+				</div>
+				<div class="comments"  id="comments">
+				<div class="comment">
+				<div class="comment-side">
+				<div class="comment-avatar">
+
+				</div>
+				</div>
+				<div class="comment-base">
+				<h1 class="comment-title">Цены горячих блюд</h1>
+				<p>Каша молочная – 30,75 руб<br>Каша гречневая – 26,79 руб<br>Котлета куриная – 30,98 руб<br>Греча отварная – 26,79 руб<br>Каша рисовая – 30,75 руб<br><br><br></p>
+				</div>
+				</div>
+				<div class="comment">
+				<div class="comment-side">
+				<div class="comment-avatar">
+
+				</div>
+				</div>
+				<div class="comment-base">
+				<h1 class="comment-title">Цены супов</h1>
+				<p>Суп картофельный с горохом и цыплёнком – 13,29 руб<br><br><br><br><br><br><br><br></p>
+				</div>
+				</div>
+				<div class="comment">
+				<div class="comment-side">
+				<div class="comment-avatar">
+
+				</div>
+				</div>
+				<div class="comment-base">
+				<h1 class="comment-title">Цены напитков</h1>
+				<p>Компот из свежих плодов – 10,95 руб<br>Чай с сахаром – 2,88 руб<br>Чай с сахаром и лимоном – 5,12 руб<br>Кисло-молочный продукт – 43,57 руб</p>
+				</div>
+				</div>
+				</div>
+				</div>
+			</main>
+			<footer class="footer"  id="footer">
+				Место нахождения: г. Вологда, ул. Горького, д.57<br>Юридический адрес школы: почтовый индекс: 160014, область: Вологодская, населенный пункт: город Вологда, улица: Горького, дом: 57<br>Телефон: 8 (8172) 54-45-65; факс: 8 (8172) 54-45-65<br>Телефоны: директор Богданова С.А. – 8 (8172) 54-45-65; документовед Иванова Е.В. – 8 (8172) 54-45-65; заместители директора по УВР – 8 (8172) 54-20-68; социальный педагог – 8 (172) 54-45-20; заместитель директора по АХР – 8 (8172) 54-45-20<br>e-mail: school13@vologda-city.ru<br>Основной сайт: s10012.edu35.ru
+			</footer>
+		</body>
+	</html>
